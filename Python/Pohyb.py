@@ -1,10 +1,6 @@
 x = 5
 y = 5
-<<<<<<< HEAD
 # Počáteční pozice
-=======
-# Počát
->>>>>>> efbeae4 (hiugz)
 
 while True:
     print("Player position:", x, y)
@@ -12,15 +8,9 @@ while True:
 
 # Posunutí o jeden pixel
     if move == "w":
-<<<<<<< HEAD
         y = y - 1
     elif move == "s":
         y = y + 1
-=======
-        y = y + 1
-    elif move == "s":
-        y = y - 1
->>>>>>> efbeae4 (hiugz)
     elif move == "a":
         x = x - 1
     elif move == "d":
